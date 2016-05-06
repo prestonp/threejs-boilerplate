@@ -1,0 +1,23 @@
+{
+  "name": "threejs-boilerplate",
+  "version": "1.0.0",
+  "description": "Threejs boilerplate with webpack and browsersync",
+  "main": "index.js",
+  "scripts": {
+    "sync": "browser-sync start --server '.' --files '.'",
+    "watch": "webpack --watch",
+    "build": "webpack -p"
+  },
+  "author": "Preston Pham",
+  "license": "MIT",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "browser-sync": "^2.12.5",
+    "webpack": "^1.13.0",
+    "babel-core": "^6.8.0",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.6.0",
+    "browser-sync-webpack-plugin": "^1.0.1"
+  }
+}
